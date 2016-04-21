@@ -1,0 +1,9 @@
+Performs linear regression with l1-regularization, also popularly known as lasso regression
+
+The objective function is the following:
+
+||y - X*w||^2 + lambda * ||w||_1
+
+where y is a vector of n real values. X is an nxd matrix of n samples of d-dimensions each. Lambda is the tuning parameter for penalizing the size of the feature vector w.
+
+You can read more about least squares and lasso online.
