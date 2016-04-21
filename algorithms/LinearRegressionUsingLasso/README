@@ -16,4 +16,4 @@ X = [1 2; 1 3; 1 4; 1 5; 1 6 ; 1 7];
 % Generate some y values
 y = [1;2;3;4;5;6];
 %Run linear regression method to learn weights, lambda is 0.1, tolerance is 10^-5, number of iterations is 1000
-w = linear_regression_l1(X, y, 0.5, 1e-5, 1000, zeros(size(X,2),1))
+w = linear_regression_l1(X, y, 0.1, 1e-5, 1000, zeros(size(X,2),1))
